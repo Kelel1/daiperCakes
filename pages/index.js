@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <div className="container">
+      <Navbar></Navbar>
       <Head>
         <title>Daiper Cakez</title>
       </Head>
@@ -23,7 +25,7 @@ export default function Home() {
         html,
         body {
           padding: 0;
-          background-color: pink;
+          background-color: #fcb8f4;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
