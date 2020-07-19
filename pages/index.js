@@ -1,5 +1,6 @@
-import Head from 'next/head'
+import Head   from 'next/head'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         html,
         body {
           padding: 0;
-          background-color: #fcb8f4;
+          background-color: #fceff6;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
