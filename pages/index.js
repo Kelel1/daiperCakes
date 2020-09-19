@@ -15,11 +15,7 @@ export default function Home() {
           Welcome to Daiper Cakes!
         </h1>
       </main>
-
-      <footer>
-        
-      </footer>
-
+      <Footer/>      
       <style jsx>{``}</style>
 
       <style jsx global>{`

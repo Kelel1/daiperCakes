@@ -15,6 +15,7 @@ const Navbar = () => (
     </nav>
     <style jsx>{`
       .navbar {
+        box-shadow: 0px 2px 5px 10px rgba(0, 0, 0, 0.2)
         position: fixed;
         top: 0;
         left: 0;

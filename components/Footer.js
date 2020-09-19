@@ -16,6 +16,39 @@ const Footer = () => (
         <li><a href="">Facebook</a></li>         
       </div>
     </div>
+    <style jsx>{`
+      .footer {
+        padding: 20px;
+        background: #16f4d7;
+      }
+      .footer_right {
+        background: #16f4d7;
+      }
+      .footer_right,
+      .footer_right li, a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        text-align: center;
+      }
+      .footer_left,
+      .footer_left a, li {
+        text-decoration: none;
+        list-style: none;
+        color: white;    
+        text-align: center;    
+      }
+      @media screen and (min-width: 960px){
+        footer-center {
+          display: flex;
+          justify-content: space-evenly;
+        }      
+        .footer
+      } 
+
+
+    `}</style>
+    
 
   </footer>
 )
