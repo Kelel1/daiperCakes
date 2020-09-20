@@ -20,6 +20,9 @@ const Footer = () => (
       .footer {
         padding: 20px;
         background: #16f4d7;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
       }
       .footer_right {
         background: #16f4d7;

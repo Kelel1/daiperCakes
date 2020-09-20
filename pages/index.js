@@ -10,10 +10,17 @@ export default function Home() {
         <title>Daiper Cakez</title>
       </Head>
 
-      <main>
-        <h1>
+      <main className="intro">
+        <p className="welcome">
           Welcome to Daiper Cakes!
-        </h1>
+        </p>
+        <p>
+          Get the perfect gift for your upcoming baby shower.
+          Choose from any of our pre-made diaper cakes or call or email to
+          speak to a representative about a more customized design.
+          
+          Send a gift that is both unique and practical, Order today!
+        </p>
       </main>
       <Footer/>      
       <style jsx>{``}</style>
@@ -31,6 +38,10 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+        }
+        .intro,
+        .welcome {
+          color: #16f4d7;
         }
       `}</style>
     </div>

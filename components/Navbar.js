@@ -3,13 +3,13 @@ const Navbar = () => (
 
     <nav className="nav_navigation">
       <div></div>
-      <div className="nav_logo"><a href="/">Daiper-Cakez Logo</a></div>
+      <div className="nav_logo"><a href="/">Daiper-Cakez</a></div>
       <div className="space"></div>
       <div className="nav_items">
         <ul>
-          <li><a href="/">Cakes</a></li>
           <li><a href="/">About</a></li>
           <li><a href="/">Contact</a></li>
+          <li><a href="/">Order</a></li>
         </ul>
       </div>
     </nav>
