@@ -1,4 +1,12 @@
-const Navbar = () => (
+import { FaBars, FaTimes} from 'react-icons/fa';
+import React, { useState } from 'react';
+
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  return (
   <header className="navbar">
 
     <nav className="nav_navigation">
@@ -10,10 +18,14 @@ const Navbar = () => (
           <li><a href="/">About</a></li>
           <li><a href="/">Contact</a></li>
           <li><a href="/">Order</a></li>
+          <li><div className="Test" onClick={handleClick}>
+          {click ? <FaTimes /> : <FaBars />}
+        </div></li>
         </ul>
+        
       </div>
     </nav>
-    <style jsx>{`
+    <style jsx>{`q
       .navbar {
         box-shadow: 0px 2px 5px 10px rgba(0, 0, 0, 0.2)
         position: fixed;
@@ -59,7 +71,7 @@ const Navbar = () => (
     `}</style>
 
   </header>
-  
-)
+  )
+}
 
 export default Navbar

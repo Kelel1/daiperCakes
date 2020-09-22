@@ -14,7 +14,7 @@ export default function Home() {
         <p className="welcome">
           Welcome to Daiper Cakes!
         </p>
-        <p>
+        <p className="copy">
           Get the perfect gift for your upcoming baby shower.
           Choose from any of our pre-made diaper cakes or call or email to
           speak to a representative about a more customized design.
@@ -42,6 +42,11 @@ export default function Home() {
         .intro,
         .welcome {
           color: #16f4d7;
+          text-align: center;          
+        }
+        .copy {
+          padding-left: 10%;
+          padding-right: 10%;
         }
       `}</style>
     </div>
