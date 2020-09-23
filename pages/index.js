@@ -45,6 +45,7 @@ export default function Home() {
           text-align: center;          
         }
         .copy {
+          padding-top: 5%;
           padding-left: 10%;
           padding-right: 10%;
         }
