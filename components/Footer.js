@@ -10,7 +10,7 @@ const Footer = () => (
             <li><a href="">About</a></li>
           </ul>
         </div>
-        <div className="space"></div>
+        {/* <div className="space"></div> */}
         <div className="col2">
           <h2>Contact</h2>
           <ul>
@@ -36,6 +36,7 @@ const Footer = () => (
         text-decoration: none;
         list-style: none;
         color: white;
+        margin: 0 auto;
       }   
       .row {
         display: flex;
@@ -43,6 +44,9 @@ const Footer = () => (
       .space {
         flex: 1;
       } 
+      .col2 {
+        
+      }
 
 
     `}</style>
