@@ -2,18 +2,18 @@ const Footer = () => (
   <footer className="footer">
     <div className="container">
       <div className="row">
-        <div className="col1">
-          <h2>Links</h2>
+        <div className="col1">          
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Cakez</a></li>
+            <li><h2>Info</h2></li>
             <li><a href="">About</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Cakez</a></li>            
           </ul>
         </div>
         {/* <div className="space"></div> */}
-        <div className="col2">
-          <h2>Contact</h2>
+        <div className="col2">          
           <ul>
+            <li><h2>Contact</h2></li>
             <li><a href="">Phone</a></li>
             <li><a href="">Email</a></li>
             <li><a href="">Instagram</a></li>
@@ -44,9 +44,10 @@ const Footer = () => (
       .space {
         flex: 1;
       } 
-      .col2 {
-        
+      .header {
+        margin: 0 right;
       }
+     
 
 
     `}</style>
